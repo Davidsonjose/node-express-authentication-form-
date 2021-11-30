@@ -1,0 +1,3 @@
+bodyParser middleware enables you to get data from a form using (req.body);
+note:  for you to use the bodyParser is either you install express or download it as a self-dependency
+
