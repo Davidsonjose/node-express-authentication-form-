@@ -17,6 +17,9 @@ const UserSchema = new mongoose.Schema({
     type: String,
     default: Date.now,
   },
+  resetLink: {
+    data: String,
+  }
 });
 
 const User = mongoose.model("User", UserSchema);
